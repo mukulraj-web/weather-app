@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#main {
+    height: 500px;
+    width: 400px;
+    margin: 100px 400px 100px 400px;
+    background-image: linear-gradient(#519685,#5b548a);
+    border-radius: 20px;
+}
+#search-area {
+    margin: 10px 10px 10px 10px;
+    padding:40px 30px 20px 30px;
+    text-align: center; 
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+
+}
+.search {
+    height: 40px;
+    border: none;
+    
+}
+#search-box {
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    width: 250px;
+}
+#search-button {
+    border-radius:50%;
+    width: 40px;
+    text-align: center;
+    background-image: url(search-interface-symbol.png);
+}
+#weather {
+    margin: 10px 10px 10px 10px;
+    padding:40px 30px 20px 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+#tempt,#city-name {
+    margin: 5px 10px 10px 5px ;
+    
+    font-size: 30px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+img {
+    border-radius: 50%;
+}
+#footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+    color: white;
+}
+#humi,#wind-speed {
+    display: flex;
+
+}
+#text1,#text2 {
+    padding: 0px 0px 0px 20px;
+}
+
